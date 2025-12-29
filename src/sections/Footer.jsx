@@ -366,26 +366,39 @@ export default function Footer() {
             </div>
 
             {/* Newsletter */}
-            <div className="p-4 rounded-xl"
-              style={{
-                background: 'linear-gradient(135deg, rgba(28, 216, 210, 0.1), rgba(0, 191, 143, 0.05))',
-                border: '1px solid rgba(0, 191, 143, 0.2)',
-              }}
-            >
-              <p className="text-sm text-gray-300 mb-3">
-                Subscribe for latest projects and tech insights
-              </p>
-              {/* <div className="flex gap-2">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-3 py-2 rounded-lg bg-black/50 border border-gray-700 text-sm focus:outline-none focus:border-[#00bf8f]"
-                />
-                <button className="px-4 py-2 rounded-lg text-sm font-medium  overflow-hiddenbg-linear-to-r from-[#1cd8d2] to-[#00bf8f] hover:opacity-90 transition-opacity">
-                  Join
-                </button>
-              </div> */}
-            </div>
+            <div
+  className="p-4 rounded-xl"
+  style={{
+    background:
+      "linear-gradient(135deg, rgba(28, 216, 210, 0.1), rgba(0, 191, 143, 0.05))",
+    border: "1px solid rgba(0, 191, 143, 0.25)",
+  }}
+>
+  <p className="text-sm text-gray-300 mb-4">
+    Subscribe for latest projects and tech insights
+  </p>
+
+  <a
+    href="https://youtube.com/@polytechnicacademy99?si=0jpjHiXgOsuM8gZU"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex items-center gap-2
+      px-5 py-2.5
+      rounded-lg
+      bg-[#ff0000]
+      text-white text-sm font-semibold
+      border border-red-500
+      shadow-[0_6px_16px_rgba(255,0,0,0.55)]
+      hover:shadow-[0_10px_28px_rgba(255,0,0,0.8)]
+      hover:bg-[#e60000]
+      transition-all duration-300
+    "
+  >
+    ▶ Subscribe on YouTube
+  </a>
+</div>
+
           </motion.div>
         </div>
 
