@@ -1,13 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { HashRouter } from 'react-router-dom' // ✅ इसे import करें
 import './index.css'
 import App from './App.jsx'
 
+// ✅ बस इतना ही code रखें, HashRouter की जरूरत नहीं
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter> {/* ✅ इसे wrap करें */}
-      <App />
-    </HashRouter>
+    <App />
   </StrictMode>,
 )

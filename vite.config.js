@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/amitkumar/", // ✅ यह सही है अगर repo name "amitkumar" है
+  base: "./",  // ✅ सिर्फ ये change करें
   plugins: [react(), tailwindcss()],
 });
