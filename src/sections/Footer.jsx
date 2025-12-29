@@ -375,16 +375,16 @@ export default function Footer() {
               <p className="text-sm text-gray-300 mb-3">
                 Subscribe for latest projects and tech insights
               </p>
-              <div className="flex gap-2">
+              {/* <div className="flex gap-2">
                 <input
                   type="email"
                   placeholder="Your email"
                   className="flex-1 px-3 py-2 rounded-lg bg-black/50 border border-gray-700 text-sm focus:outline-none focus:border-[#00bf8f]"
                 />
-                <button className="px-4 py-2 rounded-lg text-sm font-medium bg-linear-to-r from-[#1cd8d2] to-[#00bf8f] hover:opacity-90 transition-opacity">
+                <button className="px-4 py-2 rounded-lg text-sm font-medium  overflow-hiddenbg-linear-to-r from-[#1cd8d2] to-[#00bf8f] hover:opacity-90 transition-opacity">
                   Join
                 </button>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
