@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import img1 from "../assets/img1.JPG";
 import img2 from "../assets/img2.JPG";
 import img3 from "../assets/img3.JPG";
+import img4 from "../assets/img4.png"
 
 /* ---------- Mobile Hook ---------- */
 const useIsMobile = (query = "(max-width: 639px)") => {
@@ -54,6 +55,15 @@ export default function Projects() {
         bgColor: "rgba(15, 23, 42, 0.95)", // Same as first
         glowColor: "#10b981", // Green accent
         tech: ["React.js", "MongoDB", "FastAPI"]
+      },
+
+       { 
+        title: "Free Book Store", 
+        link: "https://amit9950.github.io/PYQpolytechnic/", 
+        image: img4,
+        bgColor: "rgba(15, 23, 42, 0.95)", // Same as first
+        glowColor: "#10b981", // Green accent
+        tech: ["HTML", "CSS", "JavaScript" ,"BootStrap"]
       },
     ],
     []

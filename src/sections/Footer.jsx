@@ -25,7 +25,8 @@ export default function Footer() {
     { name: "Projects", href: "#projects" },
     { name: "Experience", href: "#experience" },
     { name: "Testimonials", href: "#testimonials" },
-    { name: "Contact", href: "#contact" }
+    { name: "Contact", href: "#contact" },
+     { name: "Education", href: "#education" },
   ];
 
   const socialLinks = [
@@ -488,7 +489,7 @@ export default function Footer() {
       </div>
 {/* Floating navigation dots */}
       <div className="fixed right-8 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block">
-        {['home', 'about', 'projects', 'contact'].map((section, index) => (
+        {['home', 'about', 'projects', 'contact' ,'education'].map((section, index) => (
           <motion.a
             key={section}
             href={`#${section}`}

@@ -10,6 +10,7 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Testimonials from "./sections/Testimonials";
 import IntroAnimation from "./components/IntroAnimation";
+import Education from "./sections/Education"
 
 export default function App() {
   const [introDone, setIntroDone] = useState(false);
@@ -27,6 +28,7 @@ export default function App() {
           <Home />
           <About />
           <Skills />
+          <Education/>
           <Projects />
           <Experience />
           <Testimonials />

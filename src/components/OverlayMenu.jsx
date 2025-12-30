@@ -31,6 +31,7 @@ export default function OverlayMenu({ isOpen, onClose }) {
               "Experience",
               "Testimonials",
               "Contact",
+              "Education",
             ].map((item, index) => (
               <motion.li
                 key={`${item}-${index}`}
