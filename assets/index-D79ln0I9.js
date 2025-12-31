@@ -57,7 +57,7 @@ Error generating stack: `+e.message+`
     bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63]\r
     shadow-lg shadow-[#00bf8f]/30\r
     hover:scale-105 hover:shadow-xl\r
-    transition-all duration-300`,children:`View My Work`}),(0,y.jsx)(`a`,{href:`/Amit_Kumar_Resume.pdf`,target:`_blank`,rel:`noopener noreferrer`,className:`px-7 py-3 rounded-full font-semibold\r
+    transition-all duration-300`,children:`View My Work`}),(0,y.jsx)(`a`,{href:`/Amit_Kumar_resume.pdf`,target:`_blank`,rel:`noopener noreferrer`,className:`px-7 py-3 rounded-full font-semibold\r
     border border-white/30 text-white\r
     backdrop-blur-md\r
     hover:bg-white/10 hover:scale-105\r
