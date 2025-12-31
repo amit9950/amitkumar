@@ -143,7 +143,7 @@ export default function Home() {
 
   {/* Secondary Button */}
   <a
-    href="/Amit_Kumar_Resume.pdf"
+    href="/Amit_Kumar_resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="px-7 py-3 rounded-full font-semibold
